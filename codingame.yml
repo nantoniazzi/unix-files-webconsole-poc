@@ -1,6 +1,6 @@
 title : Content name
 plan:
-  - title: Part 1
+  - title: File and directory management in Unix Systems
     statement: markdowns/part1.md
 projects:
   webconsole:
