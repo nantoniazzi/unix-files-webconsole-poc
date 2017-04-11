@@ -4,3 +4,10 @@ plan:
     statement: markdowns/part1.md
   - title: Part 2
     statement: markdowns/part2.md
+project:
+  webconsole:
+    root: /
+    buildScript: cp /project/target/webconsole.php /var/www/html
+    runner:
+      name: php
+      version: 7-apache
