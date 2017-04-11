@@ -12,7 +12,7 @@ $NO_LOGIN = true;
 
 // Single-user credentials
 // Example: $USER = 'user'; $PASSWORD = 'password';
-$USER = '';
+$USER = 'www-data';
 $PASSWORD = '';
 
 // Multi-user credentials
