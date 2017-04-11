@@ -5,5 +5,5 @@ plan:
 projects:
   webconsole:
     root: work
-    buildCommand: cp /project/target/webconsole.php /var/www/html
+    buildCommand: /bin/bash build.sh
     runner: php:7-apache
