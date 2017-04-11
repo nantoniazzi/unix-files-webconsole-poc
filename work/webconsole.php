@@ -582,7 +582,7 @@ function execute_command($command) {
 
 // Command parsing
 function parse_command($command) {
-    $value = 'sudo ' . ltrim((string) $command);
+    $value = ltrim((string) $command);
 
     if (!is_empty_string($value)) {
         $values = explode(' ', $value);
@@ -779,7 +779,7 @@ class WebConsoleRPCServer extends BaseJsonRpcServer {
         $result = $this->initialize($token, $environment);
         if ($result) return $result;
 
-        $output = ($command && !is_empty_string($command)) ? execute_command($command) : '';
+        $output = ($command && !is_empty_string($command)) ? execute_command('sudo ' . $command) : '';
         if ($output && substr($output, -1) == "\n") $output = substr($output, 0, -1);
 
         return array('output' => $output);
