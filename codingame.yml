@@ -6,7 +6,7 @@ plan:
     statement: markdowns/part2.md
 projects:
   webconsole:
-    root: /
+    root: /project
     buildScript: cp /project/target/webconsole.php /var/www/html
     runner:
       name: php
