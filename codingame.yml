@@ -2,12 +2,8 @@ title : Content name
 plan:
   - title: Part 1
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
 projects:
   webconsole:
     root: work
-    buildScript: cp /project/target/webconsole.php /var/www/html
-    runner:
-      name: php
-      version: 7-apache
+    buildCommand: cp /project/target/webconsole.php /var/www/html
+    runner: php:7-apache
