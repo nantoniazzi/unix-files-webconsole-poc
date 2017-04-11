@@ -1,4 +1,4 @@
-# File managemend in Unix environment
+# File management in Unix environment
 
 ## Directory management
 
