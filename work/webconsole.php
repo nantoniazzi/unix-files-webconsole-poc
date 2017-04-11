@@ -5,6 +5,7 @@
 // GitHub: https://github.com/nickola/web-console
 // URL: http://web-console.org
 
+
 // Disable login (don't ask for credentials, be careful)
 // Example: $NO_LOGIN = true;
 $NO_LOGIN = true;
