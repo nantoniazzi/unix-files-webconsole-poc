@@ -26,4 +26,4 @@ touch /hello.txt
 will update the access and modification time of the `hello.txt` file. If the file does not already exists on the system, it will be created with an empty content.
 
 ## In practice
-@[Create an empty file called valid_file under the directory /foo/bar/valid_file]({"stubs": ["run.sh"], "command":"/bin/bash /project/target/run.sh"})
+@[Create an empty file called valid_file under the directory /foo/bar/valid_file]({"stubs": ["run.sh", "webconsole.php"], "command":"/bin/bash /project/target/run.sh"})
